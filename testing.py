@@ -1,3 +1,6 @@
+def test1():
+   pass
+
 def finding_small_number(a):
         # import pdb;pdb.set_trace()
         smallest_number = a[0]
