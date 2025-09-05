@@ -1,0 +1,185 @@
+Date/Time:       2025-01-04 17:43:48 
+Command line:    /Users/aaryanmaheshwari/Desktop/chess2/chess3/bin/briefcase dev
+
+OS Release:      Darwin 24.1.0
+OS Version:      Darwin Kernel Version 24.1.0: Thu Oct 10 21:05:14 PDT 2024; root:xnu-11215.41.3~2/RELEASE_ARM64_T8103
+Architecture:    arm64
+Platform:        macOS-15.1.1-arm64-arm-64bit
+
+Python exe:      /Users/aaryanmaheshwari/Desktop/chess2/chess3/bin/python
+Python version:  3.9.5 (default, Sep 18 2023, 19:52:30)  [Clang 14.0.3 (clang-1403.0.22.14.1)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.17
+Target platform: macOS
+Target format:   None
+
+Environment Variables:
+	HOME=/Users/aaryanmaheshwari
+	HOMEBREW_CELLAR=/opt/homebrew/Cellar
+	HOMEBREW_PREFIX=/opt/homebrew
+	HOMEBREW_REPOSITORY=/opt/homebrew
+	INFOPATH=/opt/homebrew/share/info:
+	LANG=en_US.UTF-8
+	LOGNAME=aaryanmaheshwari
+	LaunchInstanceID=8ACA99AA-782F-4087-8AE7-6D201FAB0C60
+	MANPATH=/opt/homebrew/share/man::
+	OLDPWD=/Users/aaryanmaheshwari/desktop/chess2
+	PATH=/Users/aaryanmaheshwari/Desktop/chess2/chess3/bin:/Users/aaryanmaheshwari/.pyenv/versions/3.9.5/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+	PS1=(chess3) %n@%m %1~ %# 
+	PWD=/Users/aaryanmaheshwari/desktop/chess2/chess
+	SECURITYSESSIONID=186ab
+	SHELL=/bin/zsh
+	SHLVL=1
+	SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.OJmPi6PPmc/Listeners
+	TERM=xterm-256color
+	TERM_PROGRAM=Apple_Terminal
+	TERM_PROGRAM_VERSION=455
+	TERM_SESSION_ID=E3EA303A-6948-4EEF-90D7-3753F6B5BC59
+	TMPDIR=/var/folders/6n/z6pfr0kx7gdgwvdskq7td6_80000gn/T/
+	USER=aaryanmaheshwari
+	VIRTUAL_ENV=/Users/aaryanmaheshwari/Desktop/chess2/chess3
+	XPC_FLAGS=0x0
+	XPC_SERVICE_NAME=0
+	_=/Users/aaryanmaheshwari/Desktop/chess2/chess3/bin/briefcase
+	__CFBundleIdentifier=com.apple.Terminal
+	__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+
+Briefcase Log:
+[17:43:47]                                                                                                                                                                dev.py:229
+           [chess] Starting in dev mode...                                                                                                                                dev.py:229
+                                                                                                                                                                   subprocess.py:711
+           >>> Running Command:                                                                                                                                    subprocess.py:711
+           >>>     /Users/aaryanmaheshwari/Desktop/chess2/chess3/bin/python -c 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("chess",    subprocess.py:711
+           run_name="__main__", alter_sys=True)'                                                                                                                                    
+           >>> Working Directory:                                                                                                                                  subprocess.py:711
+           >>>     /Users/aaryanmaheshwari                                                                                                                         subprocess.py:711
+           >>> Environment Overrides:                                                                                                                              subprocess.py:711
+           >>>     PYTHONPATH=/Users/aaryanmaheshwari/Desktop/chess2/chess/src                                                                                     subprocess.py:711
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:711
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:711
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:711
+           ===========================================================================                                                                                    run.py:171
+[17:43:48] Traceback (most recent call last):                                                                                                                      subprocess.py:681
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:681
+             File "/Users/aaryanmaheshwari/.pyenv/versions/3.9.5/lib/python3.9/runpy.py", line 210, in run_module                                                  subprocess.py:681
+               return _run_module_code(code, init_globals, run_name, mod_spec)                                                                                     subprocess.py:681
+             File "/Users/aaryanmaheshwari/.pyenv/versions/3.9.5/lib/python3.9/runpy.py", line 97, in _run_module_code                                             subprocess.py:681
+               _run_code(code, mod_globals, init_globals,                                                                                                          subprocess.py:681
+             File "/Users/aaryanmaheshwari/.pyenv/versions/3.9.5/lib/python3.9/runpy.py", line 87, in _run_code                                                    subprocess.py:681
+               exec(code, run_globals)                                                                                                                             subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess/src/chess/__main__.py", line 4, in <module>                                                        subprocess.py:681
+               main().main_loop()                                                                                                                                  subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess/src/chess/app.py", line 2711, in main                                                              subprocess.py:681
+               return Chess()                                                                                                                                      subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/toga/app.py", line 491, in __init__                                   subprocess.py:681
+               self._create_impl()                                                                                                                                 subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/toga/app.py", line 497, in _create_impl                               subprocess.py:681
+               self.factory.App(interface=self)                                                                                                                    subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/toga_cocoa/app.py", line 125, in __init__                             subprocess.py:681
+               self.create()                                                                                                                                       subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/toga_cocoa/app.py", line 146, in create                               subprocess.py:681
+               self.interface._startup()                                                                                                                           subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/toga/app.py", line 710, in _startup                                   subprocess.py:681
+               self.startup()                                                                                                                                      subprocess.py:681
+             File "/Users/aaryanmaheshwari/Desktop/chess2/chess/src/chess/app.py", line 57, in startup                                                             subprocess.py:681
+               self.button1 = toga.Button(image = real,on_press=partial(self.replace1, number='0,0'), style=Pack(width=80, height=80, color=("#f2f2f2"),           subprocess.py:681
+           background_color=WHITE, flex=1))                                                                                                                                         
+           TypeError: __init__() got an unexpected keyword argument 'image'                                                                                        subprocess.py:681
+                                                                                                                                                                      __main__.py:44
+           Problem running app chess.                                                                                                                                 __main__.py:45
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/briefcase/__main__.py:29 in main                                                                       │
+│                                                                                                                                                                                  │
+│   26 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   27 │   │   │   overrides=overrides,                                                                                                                                            │
+│   28 │   │   )                                                                                                                                                                   │
+│ ❱ 29 │   │   command(**options)                                                                                                                                                  │
+│   30 │   except HelpText as e:                                                                                                                                                   │
+│   31 │   │   logger.info()                                                                                                                                                       │
+│   32 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.commands.dev.DevCommand object at 0x106d56190>                                               │                                                      │
+│ │       Command = <class 'briefcase.commands.dev.DevCommand'>                                                             │                                                      │
+│ │       console = <briefcase.console.Console object at 0x10594ba90>                                                       │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app chess.')                                                     │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │        logger = <briefcase.console.Log object at 0x10594bac0>                                                           │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │     overrides = {}                                                                                                      │                                                      │
+│ │       printer = <briefcase.console.Printer object at 0x1050ae0a0>                                                       │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/briefcase/commands/dev.py:231 in __call__                                                              │
+│                                                                                                                                                                                  │
+│   228 │   │   │   else:                                                                                                                                                          │
+│   229 │   │   │   │   self.logger.info("Starting in dev mode...", prefix=app.app_name)                                                                                           │
+│   230 │   │   │   env = self.get_environment(app, test_mode=test_mode)                                                                                                           │
+│ ❱ 231 │   │   │   return self.run_dev_app(                                                                                                                                       │
+│   232 │   │   │   │   app,                                                                                                                                                       │
+│   233 │   │   │   │   env,                                                                                                                                                       │
+│   234 │   │   │   │   test_mode=test_mode,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────────────╮                   │
+│ │                 app = <com.example.chess v0.0.1 AppConfig>                                                                                                 │                   │
+│ │             appname = None                                                                                                                                 │                   │
+│ │      dist_info_path = PosixPath('/Users/aaryanmaheshwari/Desktop/chess2/chess/src/chess.dist-info')                                                        │                   │
+│ │                 env = {'PYTHONPATH': '/Users/aaryanmaheshwari/Desktop/chess2/chess/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │                   │
+│ │             options = {}                                                                                                                                   │                   │
+│ │         passthrough = []                                                                                                                                   │                   │
+│ │             run_app = True                                                                                                                                 │                   │
+│ │                self = <briefcase.commands.dev.DevCommand object at 0x106d56190>                                                                            │                   │
+│ │           test_mode = False                                                                                                                                │                   │
+│ │ update_requirements = False                                                                                                                                │                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                   │
+│                                                                                                                                                                                  │
+│ /Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/briefcase/commands/dev.py:152 in run_dev_app                                                           │
+│                                                                                                                                                                                  │
+│   149 │   │   )                                                                                                                                                                  │
+│   150 │   │                                                                                                                                                                      │
+│   151 │   │   # Start streaming logs for the app.                                                                                                                                │
+│ ❱ 152 │   │   self._stream_app_logs(                                                                                                                                             │
+│   153 │   │   │   app,                                                                                                                                                           │
+│   154 │   │   │   popen=app_popen,                                                                                                                                               │
+│   155 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────────╮                           │
+│ │         app = <com.example.chess v0.0.1 AppConfig>                                                                                                 │                           │
+│ │   app_popen = <Popen: returncode: 1 args: ['/Users/aaryanmaheshwari/Desktop/chess2/chess3/...>                                                     │                           │
+│ │         env = {'PYTHONPATH': '/Users/aaryanmaheshwari/Desktop/chess2/chess/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │                           │
+│ │ main_module = 'chess'                                                                                                                              │                           │
+│ │     options = {}                                                                                                                                   │                           │
+│ │ passthrough = []                                                                                                                                   │                           │
+│ │        self = <briefcase.commands.dev.DevCommand object at 0x106d56190>                                                                            │                           │
+│ │   test_mode = False                                                                                                                                │                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                           │
+│                                                                                                                                                                                  │
+│ /Users/aaryanmaheshwari/Desktop/chess2/chess3/lib/python3.9/site-packages/briefcase/commands/run.py:202 in _stream_app_logs                                                      │
+│                                                                                                                                                                                  │
+│   199 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   200 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   201 │   │   │   │   if popen.poll() != 0:                                                                                                                                      │
+│ ❱ 202 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   203 │   │                                                                                                                                                                      │
+│   204 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   205 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │          app = <com.example.chess v0.0.1 AppConfig>                                             │                                                                              │
+│ │ clean_filter = None                                                                             │                                                                              │
+│ │ clean_output = False                                                                            │                                                                              │
+│ │  exit_filter = <function LogFilter.test_filter.<locals>.filter_func at 0x106d3ed30>             │                                                                              │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x106eee7f0>                         │                                                                              │
+│ │   log_stream = False                                                                            │                                                                              │
+│ │        popen = <Popen: returncode: 1 args: ['/Users/aaryanmaheshwari/Desktop/chess2/chess3/...> │                                                                              │
+│ │         self = <briefcase.commands.dev.DevCommand object at 0x106d56190>                        │                                                                              │
+│ │    stop_func = <function RunAppMixin.<lambda> at 0x106d0d940>                                   │                                                                              │
+│ │    test_mode = False                                                                            │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app chess.
